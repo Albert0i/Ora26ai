@@ -93,6 +93,8 @@ Note: You will enter your username and password **twice**:
 
 > Oracle AI Database 26ai Free is the free edition of the industry-leading database. The Oracle AI Database 26ai Free Container Image contains Oracle AI Database 26ai Free based on an Oracle Linux 8 base image.
 
+> Two flavors of the image are supported:
+
 - The **Full image**: supports all the database features provided by Oracle AI Database 26ai Free.
 ```
 docker pull container-registry.oracle.com/database/free:23.26.2.0
