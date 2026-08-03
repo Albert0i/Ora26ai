@@ -112,9 +112,24 @@ make logs
 
 
 #### VIII. License
-
 Oracle Database Free 26ai is provided under the **Oracle Free Use Terms and Conditions**.  
 See: [Oracle Database Free](https://www.oracle.com/database/free/)
+
+> Oracle AI Database 26ai Free lets you use up to 2 CPUs, 2 GB of RAM, and 12 GB of storage for your data—all wrapped up in a simple, ready-to-go package. 
+
+
+#### IX. Bibliography 
+1. [Oracle Database XE](https://www.oracle.com/database/technologies/appdev/xe.html)
+2. [Oracle AI Database Free](https://www.oracle.com/database/free/)
+3. [Oracle AI Database 26ai Free Container Image Documentation](https://container-registry.oracle.com/ords/f?p=113:4:101267054238122:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3Dza398kgnsVjPJxjBoDqAiUpP29VlkV0aZ5RoA0RGJpFqmxJg4o2g7xFKr3NcFHd_uNEdF0nX7fJxqVHtMKIwQ)
+4. [Oracle AI Database 26ai Powers the AI for Data Revolution](https://www.oracle.com/news/announcement/ai-world-database-26ai-powers-the-ai-for-data-revolution-2025-10-14/)
+5. []()
+6. []()
+7. []()
+8. []()
+
+
+#### X. 
 
 
 ### EOF 
