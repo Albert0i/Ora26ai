@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  ora26ai-db:
+    image: ${ORACLE_IMAGE}
+    container_name: ${ORACLE_CONTAINER}
+    restart: unless-stopped
+    ports:
+      - "${ORACLE_PORT_LISTENER}:1521"
+      - "${ORACLE_PORT_EMEXPRESS}:5500"
+    environment:
+      ORACLE_PWD: ${ORACLE_PWD}
+      ORACLE_CHARACTERSET: ${ORACLE_CHARACTERSET}
+    volumes:
+      - ${DATA_DIR}:/opt/oracle/oradata

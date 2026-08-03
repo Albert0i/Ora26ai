@@ -1,0 +1,26 @@
+# Oracle AI Database 26ai Free Environment Configuration
+
+# Oracle Database image
+ORACLE_IMAGE=container-registry.oracle.com/database/free:latest
+
+# Container name
+ORACLE_CONTAINER=ora26ai-db
+
+# Ports
+ORACLE_PORT_LISTENER=1521
+ORACLE_PORT_EMEXPRESS=5500
+
+# Database settings
+ORACLE_PWD=MyStrongPass123
+ORACLE_CHARACTERSET=AL32UTF8
+
+# Directories
+DATA_DIR=./oradata
+
+#
+# Oracle AI Database Free
+# https://www.oracle.com/database/free/
+# 
+# Oracle AI Database 26ai Free
+# https://container-registry.oracle.com/ords/f?p=113:4:113553405708517:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3ea8_uFC9OEGZCijqnYTJXxZKW9LTkTmxcTCpw6-j7o8ZdVKFKDajt4qj5YQExYKPjJPNJs3jewfdxtKUMH63AA
+# 
