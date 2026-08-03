@@ -1,19 +1,9 @@
 ### Oracle Database Free 26ai Spin‑Off
 
-This is a containerized project built on **Oracle Database Free 26ai (full image)**.  
-It provides a reproducible environment with persistent storage, vector capability, and automation helpers via `docker-compose` and `Makefile`.
+This is a containerized project based on **Oracle Database Free 26ai **. It provides a reproducible environment with persistent storage, vector capability, and automation helpers via `docker-compose`, `Makefile` and `.env` file.
 
 #### Prologue
-```
-https://container-registry.oracle.com/ords/f?p=113:10:113062632226910:::::
-https://container-registry.oracle.com/ords/ocr/ba/database
-
-docker pull container-registry.oracle.com/database/free:23.26.2.0
-docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
-
-docker pull container-registry.oracle.com/database/free:latest
-docker pull  container-registry.oracle.com/database/free:latest-lite
-```
+> “Today, developers building AI-powered applications are driving technology decisions like never before. Empowering them with frictionless tools is critical to fueling the next wave of innovative, user-centric apps. Oracle AI Database 26ai Free breaks down access barriers, putting advanced AI—which will include in-database AI agents—directly in developers’ hands and enable them to shape the future on their own terms. This move reinforces Oracle’s commitment to the developer community.”
 
 
 #### I. Project Structure
@@ -219,6 +209,16 @@ See: [Oracle Database Free](https://www.oracle.com/database/free/)
 
 
 #### Epilogue 
+```
+https://container-registry.oracle.com/ords/f?p=113:10:113062632226910:::::
+https://container-registry.oracle.com/ords/ocr/ba/database
+
+docker pull container-registry.oracle.com/database/free:23.26.2.0
+docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
+
+docker pull container-registry.oracle.com/database/free:latest
+docker pull  container-registry.oracle.com/database/free:latest-lite
+```
 
 
 ### EOF 
