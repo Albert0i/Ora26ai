@@ -7,7 +7,7 @@ This is a containerized project based on **Oracle Database Free 26ai**. It provi
 #### Prologue
 > “Today, developers building AI-powered applications are driving technology decisions like never before. Empowering them with frictionless tools is critical to fueling the next wave of innovative, user-centric apps. Oracle AI Database 26ai Free breaks down access barriers, putting advanced AI—which will include in-database AI agents—directly in developers’ hands and enable them to shape the future on their own terms. This move reinforces Oracle’s commitment to the developer community.”
 
-See also [Oracle AI Database 26ai Powers the AI for Data Revolution](https://www.oracle.com/news/announcement/ai-world-database-26ai-powers-the-ai-for-data-revolution-2025-10-14/)
+See also: [Oracle AI Database 26ai Powers the AI for Data Revolution](https://www.oracle.com/news/announcement/ai-world-database-26ai-powers-the-ai-for-data-revolution-2025-10-14/)
 
 
 #### I. Project Structure
@@ -197,10 +197,20 @@ FETCH FIRST 5 ROWS ONLY;
 - Password must be ≥12 chars, with uppercase, lowercase, and digit.  
 
 
-#### IX. License
+#### IX. Limitations
+> Oracle Database 26ai Free is available under a specific no-cost license for developers, learners, and production use with strict resource caps, allowing free use without time limits.
 
-Oracle Database Free 26ai is provided under the **Oracle Free Use Terms and Conditions**.  
-See: [Oracle Database Free](https://www.oracle.com/database/free/)
+**Key License and Resource Limits**
+
+- **User Data Limit**: Maximum of 12 GB of user data.
+- **CPU Limit**: Usable with up to 2 CPUs (threads).
+- **Memory Limit**: Restricted to 2 GB of RAM.
+- **Pluggable Databases**: Supports 1 PDB (Pluggable Database) alongside the root container
+- **No Time Limits**: The free tier does not expire after a set trial period.
+- **No Patches**: Oracle does not release software patches or updates for the free edition; you must upgrade or switch to a paid edition (Standard or Enterprise) for formal patch support.
+- **Usage Rights**: Can be used for building, testing, prototyping, and light production workloads, subject to the official Oracle terms.
+
+See also: [Oracle Database Free FAQ](https://www.oracle.com/database/free/faq/)
 
 
 #### X. Bibliography 
