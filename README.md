@@ -123,10 +123,9 @@ See: [Oracle Database Free](https://www.oracle.com/database/free/)
 2. [Oracle AI Database Free](https://www.oracle.com/database/free/)
 3. [Oracle AI Database 26ai Free Container Image Documentation](https://container-registry.oracle.com/ords/f?p=113:4:101267054238122:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3Dza398kgnsVjPJxjBoDqAiUpP29VlkV0aZ5RoA0RGJpFqmxJg4o2g7xFKr3NcFHd_uNEdF0nX7fJxqVHtMKIwQ)
 4. [Oracle AI Database Free – Quick Start](https://www.oracle.com/database/free/get-started/#linux8)
-5. [Oracle AI Database 26ai Powers the AI for Data Revolution](https://www.oracle.com/news/announcement/ai-world-database-26ai-powers-the-ai-for-data-revolution-2025-10-14/)
-6. [Oracle Container Registry](https://container-registry.oracle.com/ords/f?p=113:10::::::)
-7. [Installation and Getting Started Video](https://www.youtube.com/watch?v=YwcicSS9DOY)
-8. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
+5. [Oracle Container Registry](https://container-registry.oracle.com/ords/f?p=113:10::::::)
+6. [Installation and Getting Started Video](https://www.youtube.com/watch?v=YwcicSS9DOY)
+7. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
 #### X. 
