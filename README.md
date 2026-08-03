@@ -70,19 +70,31 @@ make config
 Before pulling and running the Oracle Database Free 26ai image, complete these steps:
 
 ##### 1. Sign in to Oracle Container Registry
-- Visit [Oracle Container Registry](https://container-registry.oracle.com/ords/f?p=113:10::::::) 
+- Open your web browser and go to [Oracle Container Registry](https://container-registry.oracle.com/ords/f?p=113:10::::::).
 - Navigate to **Database → Free**.
-- Sign in with your Oracle account.
+- Sign in with your **Oracle Cloud account credentials** (Oracle calls this your “Oracle account” in the registry).
 - Accept the **license agreement** for the repository.  
-  *Without this step, `docker pull` will fail with an authentication error.*
+  
+This step is mandatory — without accepting the license in the web portal, `docker pull` will fail even if you run `docker login`.
 
 ##### 2. Log in from your terminal
+After these two steps, Docker will cache your credentials locally, so you won’t need to log in again unless you clear your Docker config, switch machines, or Oracle updates the license terms.
+
 Run:
 ```
 docker login container-registry.oracle.com
 ```
 - Enter your Oracle account username and password.
 - Credentials will be stored locally so Docker can access the registry.
+
+Note: You will enter your username and password **twice**:
+1. Once in the web browser to sign in and accept the license.  
+2. Again in your terminal when you run `docker login container-registry.oracle.com`.
+
+```
+docker pull container-registry.oracle.com/database/free:23.26.2.0
+docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
+```
 
 ##### 3. Prepare the data folder
 Create the persistent storage directory:
