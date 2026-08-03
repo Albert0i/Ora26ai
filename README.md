@@ -125,10 +125,8 @@ See: [Oracle Database Free](https://www.oracle.com/database/free/)
 4. [Oracle AI Database Free – Quick Start](https://www.oracle.com/database/free/get-started/#linux8)
 5. [Oracle AI Database 26ai Powers the AI for Data Revolution](https://www.oracle.com/news/announcement/ai-world-database-26ai-powers-the-ai-for-data-revolution-2025-10-14/)
 6. [Oracle Container Registry](https://container-registry.oracle.com/ords/f?p=113:10::::::)
-7. [Oracle AI Database Free Installation Guide](https://docs.oracle.com/en/database/oracle/oracle-database/26/xeinw/installing-oracle-database-xe.html)
-8. [Oracle AI Database Client Installation Guide](https://docs.oracle.com/en/database/oracle/oracle-database/26/ntcli/installing-the-oracle-database-client-software.html#GUID-F6B104C6-7A02-4909-9C95-BDED6AF60EAA)
-9. [Installation and Getting Started Video](https://www.youtube.com/watch?v=YwcicSS9DOY)
-10. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
+7. [Installation and Getting Started Video](https://www.youtube.com/watch?v=YwcicSS9DOY)
+8. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
 #### X. 
