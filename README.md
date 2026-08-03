@@ -6,6 +6,7 @@ It provides a reproducible environment with persistent storage, vector capabilit
 #### Prologue
 ```
 https://container-registry.oracle.com/ords/f?p=113:10:113062632226910:::::
+https://container-registry.oracle.com/ords/ocr/ba/database
 
 docker pull container-registry.oracle.com/database/free:23.26.2.0
 docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
