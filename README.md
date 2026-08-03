@@ -4,6 +4,15 @@ This is a containerized project built on **Oracle Database Free 26ai (full image
 It provides a reproducible environment with persistent storage, vector capability, and automation helpers via `docker-compose` and `Makefile`.
 
 #### Prologue
+```
+https://container-registry.oracle.com/ords/f?p=113:10:113062632226910:::::
+
+docker pull container-registry.oracle.com/database/free:23.26.2.0
+docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
+
+docker pull container-registry.oracle.com/database/free:latest
+docker pull  container-registry.oracle.com/database/free:latest-lite
+```
 
 
 #### I. Project Structure
