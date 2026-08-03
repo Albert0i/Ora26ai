@@ -1,5 +1,7 @@
 ### Oracle Database Free 26ai Spin‑Off
 
+![alt rc24-database-26ai](img/rc24-database-26ai.jpg)
+
 This is a containerized project based on **Oracle Database Free 26ai**. It provides a reproducible environment with persistent storage, vector capability, and automation helpers via `docker-compose` and `Makefile`.
 
 #### Prologue
