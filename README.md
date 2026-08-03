@@ -1,6 +1,6 @@
 ### Oracle Database Free 26ai Spin‑Off
 
-This is a containerized project based on **Oracle Database Free 26ai**. It provides a reproducible environment with persistent storage, vector capability, and automation helpers via `docker-compose`, `Makefile` and `.env` file.
+This is a containerized project based on **Oracle Database Free 26ai**. It provides a reproducible environment with persistent storage, vector capability, and automation helpers via `docker-compose` and `Makefile`.
 
 #### Prologue
 > “Today, developers building AI-powered applications are driving technology decisions like never before. Empowering them with frictionless tools is critical to fueling the next wave of innovative, user-centric apps. Oracle AI Database 26ai Free breaks down access barriers, putting advanced AI—which will include in-database AI agents—directly in developers’ hands and enable them to shape the future on their own terms. This move reinforces Oracle’s commitment to the developer community.”
