@@ -91,10 +91,20 @@ Note: You will enter your username and password **twice**:
 1. Once in the web browser to sign in and accept the license.  
 2. Again in your terminal when you run `docker login container-registry.oracle.com`.
 
+> Oracle AI Database 26ai Free is the free edition of the industry-leading database. The Oracle AI Database 26ai Free Container Image contains Oracle AI Database 26ai Free based on an Oracle Linux 8 base image.
+
+- The Full image: supports all the database features provided by Oracle AI Database 26ai Free.
 ```
 docker pull container-registry.oracle.com/database/free:23.26.2.0
+```
+
+- The Lite image: smaller image size with a stripped-down installation of the database.
+```
 docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
 ```
+
+> The Lite image has a smaller storage footprint than the Full image (~80% image size reduction) and a substantial improvement in image pull time. This image is useful in CI/CD scenarios and for simpler use cases where advanced database features are not required.
+
 
 ##### 3. Prepare the data folder
 Create the persistent storage directory:
