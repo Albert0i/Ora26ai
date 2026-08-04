@@ -101,6 +101,14 @@ docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
 
 > The Lite image has a smaller storage footprint than the Full image (~80% image size reduction) and a substantial improvement in image pull time. This image is useful in CI/CD scenarios and for simpler use cases where advanced database features are not required.
 
+| Feature/Aspect | **Full Image** | **Lite Image** |
+| --- | --- | --- |
+| **Size** | ~3.25 GB compressed (13.7 GB expanded on disk) | ~786 MB compressed (2.7 GB expanded on disk) |
+| **Features** | Supports **all Oracle Database Free 26ai features** (vector search, LLM integration, analytics, full SQL capabilities) | Stripped‑down installation, **basic database functionality only** |
+| **Use Cases** | Development, testing, and workloads needing advanced features (AI, analytics, custom configs) | CI/CD pipelines, quick demos, lightweight apps, environments where advanced features aren’t required |
+| **Performance** | Larger footprint, slower to pull, but complete | Smaller footprint, **~80% size reduction**, faster pull/startup |
+| **Customization** | Full support for configuration parameters (archive logging, force logging, character sets, etc.) | Limited customization; designed for simplicity |
+| **Resource Needs** | Higher CPU, RAM, and disk usage | Lower resource usage, easier to run on constrained environments |
 
 ##### 3. Prepare the data folder
 Create the persistent storage directory:
@@ -229,6 +237,7 @@ https://container-registry.oracle.com/ords/ocr/ba/database
 
 docker login container-registry.oracle.com
 
+docker pull container-registry.oracle.com/database/xe:21.3.0
 docker pull container-registry.oracle.com/database/free:23.26.2.0
 docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
 
