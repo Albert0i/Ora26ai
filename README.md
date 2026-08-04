@@ -223,7 +223,7 @@ See also: [Oracle Database Free FAQ](https://www.oracle.com/database/free/faq/)
 
 #### X. Bibliography 
 1. [Oracle AI Database Free](https://www.oracle.com/database/free/)
-2. [Oracle AI Database 26ai Free Container Image Documentation](https://container-registry.oracle.com/ords/f?p=113:4:101511194486972:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3XUTPFyyPnP6IKCL0B-e6mis65uqzcaqiBQPMmi5vIj0r0upWylutEHbvmkK9UySXu6oHrzgrnAxDwVEc-DFs1A)
+2. [Oracle AI Database 26ai Free Container Image Documentation](https://container-registry.oracle.com/ords/f?p=113:4:2590955502093:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3cCtTd5D2_l11TwTj4a9gvw-lUaArNuGgrxXdpxQQyUUKI2qcuX3wYfMYbvVbfV2VqABydWBWgjH5CfrL8L5fBQ)
 3. [Oracle AI Database Free – Quick Start](https://www.oracle.com/database/free/get-started/#linux8)
 4. [Oracle Container Registry](https://container-registry.oracle.com/ords/f?p=113:10::::::)
 5. [Oracle Instant Client Downloads for Linux x86-64 (64-bit)](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
