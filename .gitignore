@@ -4,3 +4,5 @@
 
 # Ignore data directories
 /data
+
+/oic
