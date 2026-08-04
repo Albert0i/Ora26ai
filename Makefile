@@ -6,48 +6,68 @@ export $(shell sed 's/=.*//' $(cnf))
 
 COMPOSE = docker compose
 
-.PHONY: help up down restart ps logs prune config exec
+.PHONY: help up down restart ps logs prune config exec test test-user
 
 help:
-	@echo
-	@echo "Usage: make TARGET"
-	@echo
-	@echo "Oracle AI Database 26ai Free automation helper (linux)"
-	@echo
-	@echo "Targets:"
-	@echo "  up         start all services"
-	@echo "  down       stop all services"
-	@echo "  restart    restart services"
-	@echo "  ps         show running containers"
-	@echo "  logs       show logs"
-	@echo "  prune      clear logs"
-	@echo "  config     edit configuration"
-	@echo "  exec       open shell inside container"
+    @echo
+    @echo "Usage: make TARGET"
+    @echo
+    @echo "Oracle AI Database 26ai Free automation helper (linux)"
+    @echo
+    @echo "Targets:"
+    @echo "  up         start all services"
+    @echo "  down       stop all services"
+    @echo "  restart    restart services"
+    @echo "  ps         show running containers"
+    @echo "  logs       show logs"
+    @echo "  prune      clear logs"
+    @echo "  config     edit configuration"
+    @echo "  exec       open shell inside container"
+    @echo "  test       test SQL*Plus connection"
+    @echo "  test-user  run sample query on testuser"
 
 up:
-	$(COMPOSE) up -d --remove-orphans
+    $(COMPOSE) up -d --remove-orphans
 
 down:
-	$(COMPOSE) down -v
+    $(COMPOSE) down -v
 
 restart:
-	$(COMPOSE) restart
+    $(COMPOSE) restart
 
 ps:
-	$(COMPOSE) ps
+    $(COMPOSE) ps
 
 logs:
-	$(COMPOSE) logs -f $(ORA26AI_CONTAINER)
+    $(COMPOSE) logs -f $(ORA26AI_CONTAINER)
 
 prune:
-	@echo "Clearing logs..."
-	@rm -f $(DATA_DIR)/*.log || true
+    @echo "Clearing logs..."
+    @rm -f $(DATA_DIR)/*.log || true
 
 config:
-	nano .env
+    nano .env
 
 exec:
-	docker exec -it $(ORA26AI_CONTAINER) bash
+    docker exec -it $(ORA26AI_CONTAINER) bash
+
+test:
+    @echo "Testing connection to Oracle Database..."
+    @docker exec -it $(ORA26AI_CONTAINER) sqlplus -S testuser/testpwd@localhost:1521/FREE <<EOF
+    WHENEVER SQLERROR EXIT SQL.SQLCODE
+    SELECT 'Connection successful!' AS status FROM dual;
+    EXIT;
+EOF
+
+test-user:
+    @echo "Running sample query on testuser.sample_table..."
+    @docker exec -it $(ORA26AI_CONTAINER) sqlplus -S testuser/testpwd@localhost:1521/FREE <<EOF
+    SET LINESIZE 120
+    SET PAGESIZE 50
+    COLUMN name FORMAT A30
+    SELECT id, name, created_at FROM sample_table;
+    EXIT;
+EOF
 
 #
 # Oracle AI Database Free
