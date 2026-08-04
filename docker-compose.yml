@@ -13,3 +13,4 @@ services:
       ORACLE_CHARACTERSET: ${ORACLE_CHARACTERSET}
     volumes:
       - ${DATA_DIR}:/opt/oracle/oradata
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
