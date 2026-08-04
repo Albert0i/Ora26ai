@@ -237,7 +237,8 @@ https://container-registry.oracle.com/ords/ocr/ba/database
 
 docker login container-registry.oracle.com
 
-docker pull container-registry.oracle.com/database/xe:21.3.0
+### NO NEED TO SIGNIN TO Oracle Container Registry
+### NO NEED TO docker login 
 docker pull container-registry.oracle.com/database/free:23.26.2.0
 docker pull  container-registry.oracle.com/database/free:23.26.2.0-lite
 
